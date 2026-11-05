@@ -1,0 +1,13 @@
+# secrets: never commit your API key
+.env
+
+# local data / caches
+database/app_data.db
+longmemeval_oracle.json
+longmemeval_*.json
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+venv/
+.venv/

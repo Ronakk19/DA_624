@@ -1,0 +1,7 @@
+streamlit>=1.38
+groq>=0.11.0
+python-dotenv>=1.0
+scikit-learn>=1.4
+# Optional but recommended: semantic retrieval ("where do I study?" ~ "User is at IIT Kanpur").
+# Without it the app falls back to word + character TF-IDF.
+# sentence-transformers>=3.0
